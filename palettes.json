@@ -1,0 +1,212 @@
+{
+    "commonPal":{
+        "palName":"The Common Palette",
+        "bckColor":{
+            "htmlCode":"#FFFFFF",
+            "colorName":"White"
+        },
+        "obColor":{
+            "htmlCode":"#A1A1A1",
+            "colorName":"Gray"
+        },
+        "ibColor":{
+            "htmlCode":"#AD0000",
+            "colorName":"Red"
+        },
+        "iibColor":{
+            "htmlCode":"#8D0000"
+        },
+        "textColor":{
+            "htmlCode":"#000000"
+        }
+    },
+    "vibNeonPal":{
+        "palName":"Vibrant Neon Palette",
+        "bckColor":{
+            "htmlCode":"#1A1A2E",
+            "colorName":"Deep Blue"
+        },
+        "obColor":{
+            "htmlCode":"#E94560",
+            "colorName":"Neon Red"
+        },
+        "ibColor":{
+            "htmlCode":"#0F3460",
+            "colorName":"Electric Blue"
+        },
+        "iibColor":{
+            "htmlCode":"#0b2442"
+        },
+        "textColor":{
+            "htmlCode":"#EAEAEA"
+        }
+    },
+    "minPastelPalette":{
+        "palName":"Minimalist Pastel Palette",
+        "bckColor":{
+            "htmlCode":"#F8EDE3",
+            "colorName":"Cream Cake"
+        },
+        "obColor":{
+            "htmlCode":"#D3756B",
+            "colorName":"Terracotta Pink"
+        },
+        "ibColor":{
+            "htmlCode":"#F9C5D5",
+            "colorName":"Soft Pink"
+        },
+        "iibColor":{
+            "htmlCode":"#d6a0af"
+        },
+        "textColor":{
+            "htmlCode":"#5D5C61"
+        }
+    },
+    "earthStylePalette":{
+        "palName":"Earth Style Palette",
+        "bckColor":{
+            "htmlCode":"#3D405B",
+            "colorName":"Grayish Blue"
+        },
+        "obColor":{
+            "htmlCode":"#E07A5F",
+            "colorName":"Terracotta Orange"
+        },
+        "ibColor":{
+            "htmlCode":"#F4F1DE",
+            "colorName":"Light Beige"
+        },
+        "iibColor":{
+            "htmlCode":"#bdbaa9"
+        },
+        "textColor":{
+            "htmlCode":"#F2E9E4"
+        }
+    },
+    "cyberpunkPalette":{
+        "palName":"Cyberpunk Palette",
+        "bckColor":{
+            "htmlCode":"#0D021F",
+            "colorName":"Black Blue"
+        },
+        "obColor":{
+            "htmlCode":"#FF007F",
+            "colorName":"Neon Pink"
+        },
+        "ibColor":{
+            "htmlCode":"#120D31",
+            "colorName":"Midnight Blue"
+        },
+        "iibColor":{
+            "htmlCode":"#0a071c"
+        },
+        "textColor":{
+            "htmlCode":"#F8F8F2"
+        }
+    },
+    "seaPalette":{
+        "palName":"Sea Palette",
+        "bckColor":{
+            "htmlCode":"#001F3F",
+            "colorName":"Deep Navy Blue"
+        },
+        "obColor":{
+            "htmlCode":"#0074D9",
+            "colorName":"Bright Blue"
+        },
+        "ibColor":{
+            "htmlCode":"#7FDBFF",
+            "colorName":"Sky Blue"
+        },
+        "iibColor":{
+            "htmlCode":"#60a8c5"
+        },
+        "textColor":{
+            "htmlCode":"#FFFFFF"
+        }
+    },
+    "vintagePal":{
+        "palName":"Vintage Palette",
+        "bckColor":{
+            "htmlCode":"#FDF6E3",
+            "colorName":"Soft Cream"
+        },
+        "obColor":{
+            "htmlCode":"#B56576",
+            "colorName":"Dusty Pink"
+        },
+        "ibColor":{
+            "htmlCode":"#E56B6F",
+            "colorName":"Faded Red"
+        },
+        "iibColor":{
+            "htmlCode":"#c85b5e"
+        },
+        "textColor":{
+            "htmlCode":"#3C3C3C"
+        }
+    },
+    "tropicalPalette":{
+        "palName":"Tropical Palette",
+        "bckColor":{
+            "htmlCode":"#FAF3DD",
+            "colorName":"Soft Cream"
+        },
+        "obColor":{
+            "htmlCode":"#0097A7",
+            "colorName":"Tropical Blue"
+        },
+        "ibColor":{
+            "htmlCode":"#FF7043",
+            "colorName":"Tropical Light Orange"
+        },
+        "iibColor":{
+            "htmlCode":"#d75e38"
+        },
+        "textColor":{
+            "htmlCode":"#2F2E2E"
+        }
+    },
+    "pePalette":{
+        "palName":"Purple Elegance Palette",
+        "bckColor":{
+            "htmlCode":"#F3E5F5",
+            "colorName":"Soft Lavander"
+        },
+        "obColor":{
+            "htmlCode":"#8E24AA",
+            "colorName":"Intense Purple"
+        },
+        "ibColor":{
+            "htmlCode":"#AB47BC",
+            "colorName":"Light Purple"
+        },
+        "iibColor":{
+            "htmlCode":"#9442a2"
+        },
+        "textColor":{
+            "htmlCode":"#4A4A4A"
+        }
+    },
+    "sfPalette":{
+        "palName":"Serene Forest Palette",
+        "bckColor":{
+            "htmlCode":"#FEFEE3",
+            "colorName":"Pale Butter"
+        },
+        "obColor":{
+            "htmlCode":"#2C6E49",
+            "colorName":"Evergreen"
+        },
+        "ibColor":{
+            "htmlCode":"#4C956C",
+            "colorName":"Moss Green"
+        },
+        "iibColor":{
+            "htmlCode":"#43815e"
+        },
+        "textColor":{
+            "htmlCode":"#474747"
+        }
+    }
+}

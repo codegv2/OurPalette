@@ -1,0 +1,95 @@
+body {
+    text-align: center;
+    background-color: #ffffff;
+
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+    transition: background-color 0.2s ease-in-out;
+
+    user-select: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 0%;
+    user-select: none;
+}
+#outerbutton {
+    height: 350px;
+    width: 350px;
+
+    margin-top: 100px;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 2%;
+
+    border: 30px;
+    border-radius: 50%;
+    background-color: #a1a1a1;
+
+    box-shadow: 0px 2px px black;
+    user-select: none;
+}
+#innerbutton {
+    height: 290px;
+    width: 290px;
+
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+
+    border-radius: 50%;
+    background-color: #ad0000;
+
+    box-shadow: 0px 1px 10px black;
+
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+
+    user-select: none;
+}
+#innerbutton:hover {
+    cursor: pointer;
+}
+#innerbutton:active {
+    background-color: #8d0000;
+    box-shadow: 0px -0.5px 0px black;
+}
+
+.btn {
+    margin-top: 4%;
+    font-size: 30px;
+    border-radius: 20%;
+    border-width: 0.01px;
+    transition: background-color 0.2s ease-in-out;
+
+    user-select: none;
+}
+.btn:hover {
+    background-color: white;
+}
+
+.tContainer {
+    margin-top: 4%;
+
+    user-select: none;
+}
+
+p {
+    font-size: 24px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+
+    user-select: none;
+}
+
+.foo {
+    font-size: 27px;
+    margin-left: 7%;
+    margin-right: 7%;
+}
