@@ -3,7 +3,6 @@ let paltts;
 async function cargarDatos() {
     try {
         const response = await fetch('./palettes.json');
-        
         if (!response.ok) {
         throw new Error('Error al cargar el archivo JSON');
         }
@@ -21,10 +20,10 @@ async function cargarDatos() {
         const forwardButton = document.getElementById("fwd");
         const backButton = document.getElementById("bck");
 
-        let paletteName = document.getElementById("paletteName");
         let backgroundColorName = document.getElementById("backgroundColorName");
         let obColor = document.getElementById("obColor");
         let ibColor = document.getElementById("ibColor");
+        let pageNumber = document.getElementById("pageNumber");
 
         let properties;
         let currentPaletteNumber;
@@ -41,17 +40,19 @@ async function cargarDatos() {
             body.style.backgroundColor = currentPalette.bckColor.htmlCode;
             outerButton.style.backgroundColor = currentPalette.obColor.htmlCode;
             innerButton.style.backgroundColor = currentPalette.ibColor.htmlCode;
+            pageNumber.textContent = currentPalette.number;
             paragraphs.forEach(par => {
                 par.style.color = currentPalette.textColor.htmlCode;
+                pageNumber.style.color = currentPalette.textColor.htmlCode;
             });
             slideButtons.forEach(btn => {
                 btn.style.color = currentPalette.textColor.htmlCode;
                 btn.style.backgroundColor = currentPalette.bckColor.htmlCode;
             });
-            paletteName.textContent = currentPalette.palName;
-            backgroundColorName.textContent = `Background Color: ${currentPalette.bckColor.colorName}, ${currentPalette.bckColor.htmlCode}`;
-            obColor.textContent = `Outer Button Color: ${currentPalette.obColor.colorName}, ${currentPalette.obColor.htmlCode}`;
-            ibColor.textContent = `Inner Button Color: ${currentPalette.ibColor.colorName}, ${currentPalette.ibColor.htmlCode}`;
+            
+            backgroundColorName.textContent = `Background Color: ${currentPalette.bckColor.htmlCode}`;
+            obColor.textContent = `Outer Button Color: ${currentPalette.obColor.htmlCode}`;
+            ibColor.textContent = `Inner Button Color: ${currentPalette.ibColor.htmlCode}`;
         };
 
         forwardButton.addEventListener("click", () => {
@@ -77,7 +78,7 @@ async function cargarDatos() {
 
         innerButton.addEventListener("mousedown", () => {
             buttonPushFx.play();
-            innerButton.style.backgroundColor = currentPalette.iibColor.htmlCode;
+            // innerButton.style.backgroundColor = currentPalette.iibColor.htmlCode;
         });
         innerButton.addEventListener("mouseup", () => {
             innerButton.style.backgroundColor = currentPalette.ibColor.htmlCode;
