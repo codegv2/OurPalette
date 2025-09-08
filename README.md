@@ -1,1 +1,1 @@
-i think colors also define our own identity. everyone should find a palette that fits their personality. find yourself in this website. our palette.
+This is a fun website where you can slide through 3-color palettes showcased with a button!
